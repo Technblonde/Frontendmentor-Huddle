@@ -1,0 +1,53 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+h1 h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: auto;
+    height: 718px;
+    background-color: #edfbfe;
+    margin: -8px;
+    background-image: url(/images/bg-hero-desktop.svg);
+}
+
+.textheader{
+    border: 20px, 30px, 30px, 30px;
+    padding: 20px, 30px, 30px, 30px;
+}
+
+p{
+    border-width: 2px;
+    border-style: solid;
+    color: black;
+}
+
+button{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 30%;
+    -moz-border-radius: 25%;
+    -webkit-border-radius: 25%;
+}
+
+img.headerimage{
+    width: 700px; 
+    float: right;
+    margin: 30px;
+}
+
+img.imageright{
+    width: 450px;
+    float: right;
+    margin: 30px;
+}
+
+img.imageleft{
+    width: 450px;
+    float: left;
+    margin: 30px;
+}

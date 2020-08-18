@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link href="Styles.css" type="text/css" rel="stylesheet" />
   
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
@@ -15,52 +20,76 @@
   </style>
 </head>
 <body>
+  <header>
+    <img class="backgroundheaderimage" src="/images/bg-hero-desktop.svg"/>
 
-  Try It Free
+    <button id="header">Try It Free</button> 
 
-  Build The Community Your Fans Will Love
+    <div class="textheader">
+      <img class="headerimage" src="/images/illustration-mockups.svg"/>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+      <h1>Build The Community Your Fans Will Love</h1>
 
-  Get Started For Free
+      Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+      Create connections with your users as you engage in genuine discussion. 
 
-  Grow Together
+      <button class="buttons" type="button">Get Started For Free</button>
+    </div>  
+  </header>
 
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
+  <!--first paragraph start-->
+  <p class="left">
+    <img class="imageright" src="/images/illustration-grow-together.svg"/>
+    <h2>Grow Together</h2>
 
-  Flowing Conversations
+    Generate meaningful discussions with your audience and build a strong, loyal community. 
+    Think of the insightful conversations you miss out on with a feedback form. 
+  </p>
+  <!--first paragraph end-->  
 
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
+  <!--second paragraph start-->
+  <p class="right">
+    <img class="imageleft" src="/images/illustration-flowing-conversation.svg"/>
+    <h2>Flowing Conversations</h2>
 
-  Your Users
+    You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+    have just-in-time loading for a more natural flow.
+  </p>
+  <!--second paragraph end--> 
+  
+  <!--third paragraph start-->
+  <p class="left">
+    <img class="imageright" src="/images/illustration-your-users.svg"/>
+    <h2>Your Users</h2>
+    It takes no time at all to integrate Huddle with your app's authentication solution. 
+    This means, once signed in to your app, your users can start chatting immediately.
+  </p>
+  <!--third paragraph end--> 
+  
+  <form>
+    <h1>Ready To Build Your Community?</h1>
 
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
+    Get Started For Free  
+  </form>
 
   <footer>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+      incididunt ut labore et dolore magna aliqua
+        
+      +1-543-123-4567
+      example@huddle.com
+        
+      About Us
+      What We Do
+      FAQ
+        
+      Career
+      Blog
+      Contact Us
+        
+      &copy; Copyright 2020 TechnBlonde. All rights reserved.
+    </p>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
