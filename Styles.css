@@ -9,45 +9,82 @@ h1 h2{
 
 header{
     width: auto;
-    height: 718px;
+    height: 725px;
     background-color: #edfbfe;
-    margin: -8px;
+    margin: -1%;
     background-image: url(/images/bg-hero-desktop.svg);
 }
 
-.textheader{
-    border: 20px, 30px, 30px, 30px;
-    padding: 20px, 30px, 30px, 30px;
-}
-
-p{
-    border-width: 2px;
-    border-style: solid;
-    color: black;
+div#menu{
+    width: auto;
+    height: 50px;
+    padding: 80px 120px 30px 120px;
 }
 
 button{
+    width: 20em;
+    height: 4em;
+    align-content: center;
+    background-color: hsl(322, 100%, 66%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    box-shadow: 0 5px 30px -5px hsl(208, 11%, 55%);
+    -moz-box-shadow: 0 5px 30px -5px hsl(208, 11%, 55%);
+    -webkit-box-shadow: 0 5px 30px -5px hsl(208, 11% 55%);
+}
+
+button#buttonheader{
+    width: 15em;
+    height: 3em;
+    float: right;
     background-color: white;
     font-family: 'Open Sans', sans-serif;
-    border-radius: 30%;
-    -moz-border-radius: 25%;
-    -webkit-border-radius: 25%;
+    font-weight: 700;
+    color: black;
+}
+
+button#buttons{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+div.textheader{
+    margin: 30px 120px 30px 120px;
 }
 
 img.headerimage{
-    width: 700px; 
+    width: 600px; 
     float: right;
-    margin: 30px;
+}
+
+p{
+    border: 0 solid grey;
+    width: 1200px;
+    margin: 120px;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    box-shadow: 0 0 5px hsl(208, 11%, 55%);
+    -moz-box-shadow: 0 0 5px hsl(208, 11%, 55%);
+    -webkit-box-shadow: 0 0 5px hsl(208, 11% 55%);    
+    overflow: auto;
+    clear: left;
 }
 
 img.imageright{
     width: 450px;
     float: right;
-    margin: 30px;
+    margin: 75px;
+    clear: left;
 }
 
 img.imageleft{
     width: 450px;
     float: left;
-    margin: 30px;
+    margin: 75px;
 }
