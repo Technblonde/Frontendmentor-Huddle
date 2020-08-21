@@ -58,14 +58,15 @@ div.textheader{
 }
 
 img.headerimage{
-    width: 600px; 
+    width: 50%; 
     float: right;
 }
 
-p{
+div.paragraph{
+    height: 250px;
     border: 0 solid grey;
-    width: 1200px;
-    margin: 120px;
+    margin: 4% 8% 4% 8%;
+    padding: 4% 4% 4% 8%;
     border-radius: 25px;
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
@@ -73,18 +74,20 @@ p{
     -moz-box-shadow: 0 0 5px hsl(208, 11%, 55%);
     -webkit-box-shadow: 0 0 5px hsl(208, 11% 55%);    
     overflow: auto;
-    clear: left;
+    display: flex;
+}
+
+p{
+    padding: 5%;
 }
 
 img.imageright{
-    width: 450px;
+    width: 40%;
     float: right;
-    margin: 75px;
-    clear: left;
+    
 }
 
 img.imageleft{
-    width: 450px;
+    width: 30%;
     float: left;
-    margin: 75px;
 }
