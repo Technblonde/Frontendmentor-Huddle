@@ -1,15 +1,24 @@
 /* General */
 
+@media screen and (max-width: 768px){
+    div.textheader, img.headerimage{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }    
+}  
+
 body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    max-width: 1440px;
+    font-size: 1,32px;
     margin: auto;
-    padding: auto;
     overflow: auto;
+    border: 0;
+    margin: 0;
 }
 
-h1 h2{
+h1, h2{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -25,17 +34,16 @@ button{
     border-radius: 25px;
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
-    box-shadow: 0 0.5vw 15px -5px hsl(214, 5%, 70%);
-    -moz-box-shadow: 0 0.5vw 15px -5px hsl(214, 5%, 70%);
-    -webkit-box-shadow: 0 0.5vw 15px -5px hsl(214, 5%, 70%);
-    object-fit: scale-down;
+    box-shadow: 0 0 25px -15px #898e92;
+    -moz-box-shadow: 0 0 25px -15px #898e92;
+    -webkit-box-shadow: 0 0 25px -15px #898e92;
 }
 
 header{
     max-width: 100%;
     margin-bottom: 10vw;
     padding-bottom: 4vw;
-    background-color: #edfbfe;
+    background-color: hsl(193, 100%, 96%);
     background-image: url(/images/bg-hero-desktop.svg);
     overflow: auto;
 }
@@ -60,20 +68,20 @@ button.buttonmenu{
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    color: black;
+    color: hsl(192, 100%, 9%);
 }
 
 div.textheader{
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding-top: 5vw;
+    color: hsl(192, 100%, 9%);
 }
 
 img.headerimage{
     max-width: 600px;
     float: right;
     margin: auto;
-    object-fit: scale-down;
 }
 
 /* Paragraphs */
@@ -85,17 +93,33 @@ div.paragraph{
     border-radius: 25px;
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
-    box-shadow: 0 0 12px hsl(200, 4%, 86%);
-    -moz-box-shadow: 0 0 12px hsl(200, 4%, 86%);
-    -webkit-box-shadow: 0 0 12px hsl(200, 4%, 86%);    
+    box-shadow: 0 0 25px -15px #898e92;
+    -moz-box-shadow: 0 0 25px -15px #898e92;
+    -webkit-box-shadow: 0 0 25px -15px #898e92;
+    color: hsl(192, 100%, 9%);
+    font-weight: 400;
     overflow: hidden;
 }
+
+p{
+    color: #898e92;
+}
+
+@media screen and (max-width: 768px){
+    div.paragraph{
+        text-align: center;
+        margin: 10% auto;
+        padding: 3vw;
+        display:block;
+    }    
+} 
 
 img.imageright{
     height: 100%;
     max-height: 350px;
     float: right;
     margin: auto;
+    padding-left: 100px;
 }
 
 img.imageleft{
@@ -103,32 +127,57 @@ img.imageleft{
     max-height: 350px;
     float: left;
     margin: auto;
+    padding-right: 100px;
 }
+
+
+@media screen and (max-width: 768px){
+    img.imageright, img.imageleft{
+        float: none;
+        text-align: center;
+        width: 75%;
+        padding: 2vw;
+        padding-right: none;
+        padding-left: none;
+    }    
+} 
 
 /* CTA bottom page */
 
-div.CTA{
-    max-width: 50%;
-    margin: 10% auto 2% auto;
-    padding: 3vw 3vw 3vw 6vw;
+div.cta{
+    background-color: white;
+    width: 50%;
+    margin: 100px 25% -100px 25%;
+    padding: 3vw 0 4vw 0;
+    text-align: center;
+    border: 0;
     border-radius: 25px;
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
-    box-shadow: 0 0 12px hsl(200, 4%, 86%);
-    -moz-box-shadow: 0 0 12px hsl(200, 4%, 86%);
-    -webkit-box-shadow: 0 0 12px hsl(200, 4%, 86%);    
-    overflow: hidden;
+    box-shadow: 0 0 25px -15px #898e92;
+    -moz-box-shadow: 0 0 25px -15px #898e92;
+    -webkit-box-shadow: 0 0 25px -15px #898e92;
 }
+
+@media screen and (max-width: 768px){
+    div.cta{
+        width: auto;
+        margin: 2.5%;
+        margin-top: 100px;
+        font-size: 2.5vw;
+    }    
+} 
 
 button.buttoncta{
-    align-items: center;
+    width: 50%;
 }
-
 
 /* Footer */
 
 footer{
-    max-width: 1440px;
-    height: max-content;
+    padding-top: 300px;
     background-color: hsl(192, 100%, 9%);
+    color: white;
+    position: relative;
+    z-index: -1;
 }
