@@ -1,39 +1,33 @@
-/* General */
-
-@media screen and (max-width: 768px){
-    div.textheader, img.headerimage{
-        text-align: center;
-        width: 100%;
-        height: auto;
-        margin: auto;
-    }    
-}  
+/* General */  
 
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 1,32px;
-    margin: auto;
-    overflow: auto;
-    border: 0;
-    margin: 0;
+    font-weight: 400;
+    color: #898e92;
+    margin:0;
+    padding: 0;
+    border: none;
 }
 
 h1, h2{
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
 }
 
 button{
     width: 350px;
-    height: 50px;
+    height: 60px;
     align-content: center;
     background-color: hsl(322, 100%, 66%);
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: white;
     border: none;
-    border-radius: 25px;
-    -moz-border-radius: 25px;
-    -webkit-border-radius: 25px;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
     box-shadow: 0 0 25px -15px #898e92;
     -moz-box-shadow: 0 0 25px -15px #898e92;
     -webkit-box-shadow: 0 0 25px -15px #898e92;
@@ -41,8 +35,10 @@ button{
 
 header{
     max-width: 100%;
-    margin-bottom: 10vw;
-    padding-bottom: 4vw;
+    margin-bottom: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
     background-color: hsl(193, 100%, 96%);
     background-image: url(/images/bg-hero-desktop.svg);
     overflow: auto;
@@ -51,10 +47,9 @@ header{
 /* Header */
 
 div.menu{
-    max-width: 90%;
+    max-width: 100%;
     padding-top: 3vw;
-    padding-bottom: 3vw;
-    margin: auto;
+    margin-bottom: 100px;
 }
 
 img.logo{
@@ -72,16 +67,26 @@ button.buttonmenu{
 }
 
 div.textheader{
-    width: 80%;
-    margin: auto;
-    padding-top: 5vw;
+    width: 100%;
+    margin-right: 70%;
     color: hsl(192, 100%, 9%);
 }
 
 img.headerimage{
-    max-width: 600px;
+    max-width: 50%;
     float: right;
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+@media screen and (max-width: 768px){
+    div.textheader, img.headerimage{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }    
 }
 
 /* Paragraphs */
@@ -96,7 +101,6 @@ div.paragraph{
     box-shadow: 0 0 25px -15px #898e92;
     -moz-box-shadow: 0 0 25px -15px #898e92;
     -webkit-box-shadow: 0 0 25px -15px #898e92;
-    color: hsl(192, 100%, 9%);
     font-weight: 400;
     overflow: hidden;
 }
@@ -147,8 +151,8 @@ img.imageleft{
 div.cta{
     background-color: white;
     width: 50%;
-    margin: 100px 25% -100px 25%;
-    padding: 3vw 0 4vw 0;
+    margin: 100px 25% -75px 25%;
+    padding: 3vw 1vw 4vw 1vw;
     text-align: center;
     border: 0;
     border-radius: 25px;
@@ -162,7 +166,8 @@ div.cta{
 @media screen and (max-width: 768px){
     div.cta{
         width: auto;
-        margin: 2.5%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
         margin-top: 100px;
         font-size: 2.5vw;
     }    
