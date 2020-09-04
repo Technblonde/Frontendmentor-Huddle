@@ -1,4 +1,4 @@
-/* General */  
+/*************************** Tag selectors ***************************/  
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -44,7 +44,19 @@ header{
     overflow: auto;
 }
 
-/* Header */
+p{
+    color: #898e92;
+}
+
+footer{
+    padding-top: 300px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    position: relative;
+    z-index: -1;
+}
+
+/*************************** Class selectors ***************************/ 
 
 div.menu{
     max-width: 100%;
@@ -89,8 +101,6 @@ img.headerimage{
     }    
 }
 
-/* Paragraphs */
-
 div.paragraph{
     margin: 2% auto 2% auto;
     padding: 3vw 3vw 3vw 6vw;
@@ -103,10 +113,6 @@ div.paragraph{
     -webkit-box-shadow: 0 0 25px -15px #898e92;
     font-weight: 400;
     overflow: hidden;
-}
-
-p{
-    color: #898e92;
 }
 
 @media screen and (max-width: 768px){
@@ -146,8 +152,6 @@ img.imageleft{
     }    
 } 
 
-/* CTA bottom page */
-
 div.cta{
     background-color: white;
     width: 50%;
@@ -177,12 +181,4 @@ button.buttoncta{
     width: 50%;
 }
 
-/* Footer */
-
-footer{
-    padding-top: 300px;
-    background-color: hsl(192, 100%, 9%);
-    color: white;
-    position: relative;
-    z-index: -1;
-}
+/*************************** ID selectors ***************************/ 
